@@ -3,6 +3,8 @@ using System.Web.Http;
 using Autofac;
 using Autofac.Integration.WebApi;
 using CustomerService.Data;
+using CustomerService.Interfaces;
+using CustomerService.Repositories;
 
 namespace CustomerService.App_Start
 {
@@ -25,6 +27,7 @@ namespace CustomerService.App_Start
             builder.RegisterApiControllers(Assembly.GetExecutingAssembly());
 
             builder.RegisterType<CustomerRepository>().As<ICustomerRepository>().SingleInstance();
+            builder.RegisterType<DataProvider>().As<IDataProvider>().SingleInstance();
 
             container = builder.Build();
 

@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using CustomerService.Models;
 
-namespace CustomerService.Data
+namespace CustomerService.Interfaces
 {
     public interface ICustomerRepository
     {

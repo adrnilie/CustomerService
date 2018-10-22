@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Web.Http;
-using CustomerService.Data;
+using CustomerService.Interfaces;
 using CustomerService.Models;
 
 namespace CustomerService.Controllers

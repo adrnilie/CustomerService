@@ -30,3 +30,10 @@ F:\Repositories\CustomerService\CustomerService.Tests\obj\Debug\Customer.Service
 F:\Repositories\CustomerService\CustomerService.Tests\obj\Debug\Customer.Service.Tests.csproj.CopyComplete
 F:\Repositories\CustomerService\CustomerService.Tests\obj\Debug\CustomerService.Tests.dll
 F:\Repositories\CustomerService\CustomerService.Tests\obj\Debug\CustomerService.Tests.pdb
+F:\Repositories\CustomerService\CustomerService.Tests\bin\Debug\Castle.Core.dll
+F:\Repositories\CustomerService\CustomerService.Tests\bin\Debug\Moq.dll
+F:\Repositories\CustomerService\CustomerService.Tests\bin\Debug\nunit.framework.dll
+F:\Repositories\CustomerService\CustomerService.Tests\bin\Debug\Castle.Core.xml
+F:\Repositories\CustomerService\CustomerService.Tests\bin\Debug\Moq.xml
+F:\Repositories\CustomerService\CustomerService.Tests\bin\Debug\nunit.framework.pdb
+F:\Repositories\CustomerService\CustomerService.Tests\bin\Debug\nunit.framework.xml
