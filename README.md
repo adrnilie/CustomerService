@@ -5,9 +5,9 @@
 The service provides a in-memory list of customers which can be manipulated through defined endpoints for CRUD operations.
 
 ###### Table of contents
-1. Installation and run
-2. Endpoints
-3. Third party products
+1. [Installation and run](https://github.com/adrnilie/CustomerService#1-installation-and-run)
+2. [Endpoints](https://github.com/adrnilie/CustomerService#2-endpoints)
+3. [Third party products](https://github.com/adrnilie/CustomerService#3-third-party-products)
 4. Examples
 
 #### 1. Installation and run
@@ -36,3 +36,5 @@ If the application is present in the folder described earlier, then you can acce
 1. Dependency Injection - [Autofac](https://autofac.org/)
 2. Test Framework - [NUnit](https://nunit.org/)
 3. Mocking Framework - [Moq](https://github.com/moq/moq4)
+
+#### 4. Examples
