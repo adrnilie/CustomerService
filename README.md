@@ -41,17 +41,17 @@ If the application is present in the folder described earlier, then you can acce
 
 All the requests were made with [Postman](https://www.getpostman.com/)
 
-Get all the customers
+##### Get all the customers
 [Get All Customers](https://i.imgur.com/9gAOuw3.png)
 
-Get Customer by ID
+##### Get Customer by ID
 [Get Customer by ID](https://i.imgur.com/qyMpZM2.png)
 
-Delete Customer
+##### Delete Customer
 [Delete Customer](https://i.imgur.com/FtPU9zg.png)
 
-Add Customer
+##### Add Customer
 [Add Customer](https://i.imgur.com/6K2rlr6.png)
 
-Update Customer
+##### Update Customer
 [Update Customer](https://i.imgur.com/YvJnCJf.png)
