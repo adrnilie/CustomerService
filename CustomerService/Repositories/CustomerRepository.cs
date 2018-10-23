@@ -25,6 +25,10 @@ namespace CustomerService.Repositories
 
         public async Task<int> AddOrUpdateCustomer(CustomerViewModel newCustomer)
         {
+            if (newCustomer == null)
+            {
+                return default(int);
+            }
 
             if (!this.CustomerEmailExists(newCustomer))
             {
@@ -72,7 +76,12 @@ namespace CustomerService.Repositories
 
         private Customer ProcessedCustomerToInser(CustomerViewModel customerToInsert)
         {
-            var newCustomerId = customers.Max(c => c.Id) + 1;
+            var newCustomerId = 1;
+            if (customers.Count != 0)
+            {
+                newCustomerId = customers.Max(c => c.Id) + 1;
+            }
+
             return new Customer(newCustomerId, customerToInsert);
         }
 
