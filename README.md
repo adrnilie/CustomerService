@@ -30,3 +30,9 @@ If the application is present in the folder described earlier, then you can acce
 |/api/customers/{id}|GET|Returns a customer based on its id|
 |/api/customers|POST / PUT|Adds or Updates a record|
 |/api/customers/{id}|DELETE|Delets a customer by its id|
+
+#### 3. Third party products
+
+3.1 Dependency Injection - [Autofac](https://autofac.org/)
+3.2 Test Framework - [NUnit](https://nunit.org/)
+3.3 Mocking Framework - [Moq](https://github.com/moq/moq4)
