@@ -8,7 +8,7 @@ The service provides a in-memory list of customers which can be manipulated thro
 1. [Installation and run](https://github.com/adrnilie/CustomerService#1-installation-and-run)
 2. [Endpoints](https://github.com/adrnilie/CustomerService#2-endpoints)
 3. [Third party products](https://github.com/adrnilie/CustomerService#3-third-party-products)
-4. Examples
+4. [Examples](https://github.com/adrnilie/CustomerService#4-examples)
 
 #### 1. Installation and run
 
@@ -38,3 +38,20 @@ If the application is present in the folder described earlier, then you can acce
 3. Mocking Framework - [Moq](https://github.com/moq/moq4)
 
 #### 4. Examples
+
+All the requests were made with [Postman](https://www.getpostman.com/)
+
+1. Get all the customers
+[Get All Customers](https://i.imgur.com/9gAOuw3.png)
+
+2. Get Customer by ID
+[Get Customer by ID](https://i.imgur.com/qyMpZM2.png)
+
+3. Delete Customer
+[Delete Customer](https://i.imgur.com/FtPU9zg.png)
+
+4. Add Customer
+[Add Customer](https://i.imgur.com/6K2rlr6.png)
+
+5. Update Customer
+[Update Customer](https://i.imgur.com/YvJnCJf.png)
