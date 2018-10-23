@@ -25,5 +25,5 @@ If the application is present in the folder described earlier, then you can acce
 #### 2. Endpoints
 
 | Endpoint | Action | Description |
------------------------------------
+|----------|--------|-------------|
 |/api/customers|GET|Returns all the customers from the list|
