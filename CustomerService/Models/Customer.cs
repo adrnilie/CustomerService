@@ -1,4 +1,6 @@
-﻿namespace CustomerService.Models
+﻿using CustomerService.ViewModels;
+
+namespace CustomerService.Models
 {
     public class Customer
     { 
@@ -10,6 +12,16 @@
             this.IBAN = iban;
             this.Email = email;
             this.Phone = phone;
+        }
+
+        public Customer(int id, CustomerViewModel customerViewModel)
+        {
+            this.Id = id;
+            this.Name = customerViewModel.Name;
+            this.Suffix = customerViewModel.Suffix;
+            this.IBAN = customerViewModel.IBAN;
+            this.Email = customerViewModel.Email;
+            this.Phone = customerViewModel.Phone;
         }
 
         public int Id { get; set; }
