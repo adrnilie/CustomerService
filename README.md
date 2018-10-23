@@ -27,3 +27,6 @@ If the application is present in the folder described earlier, then you can acce
 | Endpoint | Action | Description |
 |----------|--------|-------------|
 |/api/customers|GET|Returns all the customers from the list|
+|/api/customers/{id}|GET|Returns a customer based on its id|
+|/api/customers|POST / PUT|Adds or Updates a record|
+|/api/customers/{id}|DELETE|Delets a customer by its id|
