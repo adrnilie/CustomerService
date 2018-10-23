@@ -18,4 +18,4 @@ Clone the repository to your local environment using `git clone https://github.c
 
 Open the repository in Visual Studio (Visual Stuido 2017 was used for developing the application) and build the application `Ctrl + Shift + B`. After the build is finished, the application should be present under the `Default Web Site` in IIS (see the picture below).
 
-![Local IIS](https://imgur.com/uf1uMOZ)
+![Local IIS](https://i.imgur.com/uf1uMOZ.png)
