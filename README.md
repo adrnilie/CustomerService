@@ -33,6 +33,6 @@ If the application is present in the folder described earlier, then you can acce
 
 #### 3. Third party products
 
-3.1. Dependency Injection - [Autofac](https://autofac.org/)
-3.2. Test Framework - [NUnit](https://nunit.org/)
-3.3. Mocking Framework - [Moq](https://github.com/moq/moq4)
+1. Dependency Injection - [Autofac](https://autofac.org/)
+2. Test Framework - [NUnit](https://nunit.org/)
+3. Mocking Framework - [Moq](https://github.com/moq/moq4)
